@@ -87,7 +87,9 @@ module.exports = function (opts) {
 
         Object.keys(item.icons).forEach(function (key) {
 
-            var prefix = "node_modules/material-design-icons/" + key + "/svg/production/";
+            var prefix = require("path").dirname(require.resolve("material-design-icons")) +
+                "/" + key + "/svg/production/";
+
             if (!require("fs").existsSync(require("path").resolve(prefix))) {
                 throw new gutil.PluginError({
                     plugin:  PLUGIN_NAME,
@@ -102,6 +104,7 @@ module.exports = function (opts) {
                 item.sizes.forEach(function (size) {
 
                     var src = prefix + "ic_" + name + "_" + size + "px.svg";
+                    src = require("path").relative(process.cwd(), src);
 
                     if (!require("fs").existsSync(src)) {
                         throw new gutil.PluginError({
