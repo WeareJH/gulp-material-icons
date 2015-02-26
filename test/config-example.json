@@ -1,0 +1,50 @@
+[
+  {
+    "sizes": [24, 48],
+    "ids": ["blue"],
+    "fills": ["#005DAA"],
+    "icons": [
+      "action/account_circle",
+      "action/shopping_basket",
+      "action/lock",
+      "maps/place",
+      "maps/local_shipping",
+      "maps/store_mall_directory",
+      "navigation/fullscreen",
+      "navigation/close",
+      "navigation/menu",
+      "content/add",
+      "content/remove"
+    ]
+  },
+  {
+    "sizes": [24, 48],
+    "ids": ["white"],
+    "fills": ["#FFFFFF"],
+    "icons": [
+      "action/lock",
+      "action/search",
+      "hardware/keyboard_arrow_right",
+      "hardware/keyboard_arrow_left",
+      "hardware/keyboard_arrow_up",
+      "hardware/keyboard_arrow_down"
+    ]
+  },
+  {
+    "sizes": [24],
+    "ids": ["green"],
+    "fills": ["#008A00"],
+    "icons": [
+      "action/check_circle"
+    ]
+  },
+  {
+    "sizes": [24],
+    "ids": ["black"],
+    "fills": ["#000000"],
+    "icons": [
+      "action/view_module",
+      "action/list"
+    ]
+  }
+]

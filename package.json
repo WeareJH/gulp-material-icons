@@ -1,0 +1,24 @@
+{
+  "name": "gulp-material-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js test/*.js && mocha"
+  },
+  "author": "shakyshane",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "lodash.clonedeep": "^3.0.0",
+    "material-design-icons": "^1.0.1",
+    "vinyl-fs": "^0.3.13",
+    "xml2js": "^0.4.5"
+  },
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "gulp-svg-sprites": "^2.0.1",
+    "jshint": "^2.6.0",
+    "mocha": "^2.1.0"
+  }
+}
