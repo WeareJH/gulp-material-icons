@@ -1,6 +1,6 @@
 {
   "name": "gulp-material-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,10 @@
     "gulp-svg-sprites": "^2.0.1",
     "jshint": "^2.6.0",
     "mocha": "^2.1.0"
-  }
+  },
+  "keywords": [
+    "gulp plugin",
+    "google material icons",
+    "svg"
+  ]
 }
