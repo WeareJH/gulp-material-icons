@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jshint index.js test/*.js && mocha"
   },
+  "files": [
+    "index.js"
+  ],
   "author": "shakyshane",
   "license": "ISC",
   "dependencies": {
