@@ -1,6 +1,6 @@
 {
   "name": "gulp-material-icons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Utilise Google's Material Design Icon Set in a sane way - serving only the icons you actually use.",
   "main": "index.js",
   "scripts": {
