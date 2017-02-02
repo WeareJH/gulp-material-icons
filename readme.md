@@ -18,7 +18,7 @@ var tasks = require("icons.json");
 
 gulp.task("icons", function() {
     return icons({tasks: tasks})
-        .pipe(gulp.dest("./img/svgs));
+        .pipe(gulp.dest("./img/svgs"));
 });
 ```
 
@@ -65,7 +65,7 @@ var tasks   = require("icons.json");
 gulp.task("icons", function() {
     return icons({tasks: tasks})
         .pipe(sprites())
-        .pipe(gulp.dest("./img/svgs));
+        .pipe(gulp.dest("./img/svgs"));
 });
 ```
 
