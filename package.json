@@ -14,7 +14,7 @@
   "dependencies": {
     "gulp-util": "^3.0.4",
     "lodash.clonedeep": "^3.0.0",
-    "material-design-icons": "^1.0.1",
+    "material-design-icons": "^3.0.1",
     "vinyl-fs": "^0.3.13",
     "xml2js": "^0.4.5"
   },
